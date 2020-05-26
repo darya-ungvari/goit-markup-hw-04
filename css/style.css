@@ -198,7 +198,10 @@ h2, h3 {
     margin-bottom: 40px;
 }
 
-.hero.container {
+.hero-section {
+
+    background-image: url(../images/hero.jpg);
+
 
     height: 600px;
     text-align: center;
@@ -206,7 +209,6 @@ h2, h3 {
     padding-top: 206px;
     padding-bottom: 200px;
 
-    background-color: #585961;
 }
 
 /* Наши преимущества */
