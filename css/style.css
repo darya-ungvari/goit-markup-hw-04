@@ -179,7 +179,7 @@ h2, h3 {
 }
 .contact-nav-links {
 
-    display: inline-flex;
+    display: flex;
 
     text-decoration: none;
     color: var(--primary-text-color);
@@ -189,7 +189,14 @@ h2, h3 {
 
 }
 
-.contact-nav-links.email::before {
+.email-svg {
+    
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* .contact-nav-links.email::before {
 
     content: "";
 
@@ -201,9 +208,7 @@ h2, h3 {
     background-repeat: no-repeat;
     background-position: center;
 
-    background-image: url(../images/email.svg);
-
-}
+} */
 
 .contact-nav-links.tel::before {
 
